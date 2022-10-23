@@ -1,0 +1,33 @@
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 2rem;
+}
+
+.header__logo {
+   width: 45px;
+   height: auto;
+}
+
+.header__button {
+   background: url(../../images/icon-menu.svg) center / contain no-repeat;
+   width: 40px;
+   height: 25px;
+   border: none;
+   cursor: pointer;
+}
+
+@media screen and (min-width: 1080px) {
+   .header {
+      margin-bottom: 3.6rem;
+   }
+
+   .header__logo {
+      width: 65px
+   }
+
+   .header__button {
+      display: none;
+   }
+}
