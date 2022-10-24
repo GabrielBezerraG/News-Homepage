@@ -30,6 +30,11 @@
    font-size: 1.2rem;
    font-weight: 800;
    margin-bottom: 0.75rem;
+   cursor: pointer;
+}
+
+.top3__article__info__title:hover {
+   color: var(--red);
 }
 
 .top3__article__info__text {
@@ -40,8 +45,11 @@
 
 @media screen and (min-width: 1080px) {
    .top3 {
-      grid-column: span 3;
       margin-bottom: 0;
+      grid-column: span 3;
+   }
+
+   .top3__list {
       display: flex;
       column-gap: 2rem;
       width: 100%;

@@ -34,6 +34,11 @@
 .nav__list__item {
    font-size: 1.2rem;
    font-weight: 500;
+   cursor: pointer;
+}
+
+.nav__list__item:hover {
+   color: var(--orange);
 }
 
 @media screen and (min-width: 1080px) {

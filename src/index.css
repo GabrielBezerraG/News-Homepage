@@ -17,6 +17,7 @@ html {
   max-width: 1440px;
   padding: 1.5rem 1rem;
   position: relative;
+  background-color: var(--white);
 }
 
 .background-opacity {

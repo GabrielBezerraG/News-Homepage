@@ -21,6 +21,11 @@
    font-size: 1.35rem;
    font-weight: 700;
    margin-bottom: 0.65rem;
+   cursor: pointer;
+}
+
+.new__list__article__title:hover {
+   color: var(--orange);
 }
 
 .new__list__article__text {

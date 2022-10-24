@@ -25,15 +25,17 @@ const articlesData = [
 export default function Top3() {
    return (
       <section className='top3'>
-         {articlesData.map( (item, index) => {
-            return <Top3Article 
-               image={item.image} 
-               number={item.number} 
-               title={item.title} 
-               text={item.text} 
-               key={index} 
-            />
-         } )}
+         <ul className='top3__list'>
+            {articlesData.map( (item, index) => {
+               return <Top3Article 
+                  image={item.image} 
+                  number={item.number} 
+                  title={item.title} 
+                  text={item.text} 
+                  key={index} 
+               />
+            } )}
+         </ul>
       </section>
    )
 }

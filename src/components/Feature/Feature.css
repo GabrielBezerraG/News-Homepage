@@ -29,6 +29,12 @@
    letter-spacing: 5px;
    background-color: var(--red);
    padding: 1.05rem 2rem;
+   cursor: pointer;
+   transition: background 350ms;
+}
+
+.feature__button:hover {
+   background-color: var(--dark-navy);
 }
 
 @media screen and (min-width: 1080px) {
